@@ -3,7 +3,7 @@ import {bootstrap,
   Component,
   Decorator,
   Template,
-  NgElement} from '../angular2/angular2.es6';
+  NgElement} from '../node_modules/angular2/angular2';
 
 
 import {Person} from './model/Person';

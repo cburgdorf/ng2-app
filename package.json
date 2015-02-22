@@ -22,5 +22,8 @@
     "watchify": "^2.1.1"
   },
   "author": "Christoph Burgdorf <christoph@thoughtram.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.8.prod"
+  }
 }
