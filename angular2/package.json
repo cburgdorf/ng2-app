@@ -1,0 +1,54 @@
+{
+  "name": "angular2",
+  "version": "2.0.0-alpha.8.prod",
+  "description": "Angular 2 - a web framework for modern web apps",
+  "homepage": "https://github.com/angular/angular",
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "contributors": {
+    "Alex Eagle": "alexeagle@google.com",
+    "Chirayu Krishnappa": "chirayu@google.com",
+    "Jeff Cross": "crossj@google.com",
+    "Misko Hevery": "misko@google.com",
+    "Rado Kirov": "radokirov@google.com",
+    "Tobias Bosch": "tbosch@google.com",
+    "Victor Savkin": "vsavkin@google.com",
+    "Yegor Jbanov": "yjbanov@google.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "zone.js": "0.4.*"
+  },
+  "devDependencies": {
+    "yargs": "2.3.*",
+    "gulp-sourcemaps": "1.3.*",
+    "gulp-traceur": "0.16.*",
+    "gulp": "^3.8.8",
+    "gulp-rename": "^1.2.0",
+    "through2": "^0.6.1"
+  },
+  "_id": "angular2@2.0.0-alpha.8.prod",
+  "scripts": {},
+  "_shasum": "26c1a2f754bdea0a03bb78a6cd4f3392c84d4797",
+  "_from": "angular2@^2.0.0-alpha.8.prod",
+  "_npmVersion": "2.5.0",
+  "_nodeVersion": "0.10.34",
+  "_npmUser": {
+    "name": "angularcore",
+    "email": "angular-core+npm@google.com"
+  },
+  "maintainers": [
+    {
+      "name": "angularcore",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "dist": {
+    "shasum": "26c1a2f754bdea0a03bb78a6cd4f3392c84d4797",
+    "tarball": "http://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.8.prod.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/angular2/-/angular2-2.0.0-alpha.8.prod.tgz",
+  "readme": "ERROR: No README data found!"
+}
