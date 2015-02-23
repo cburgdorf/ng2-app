@@ -24,9 +24,8 @@ var bundler;
 function getBundler() {
   if (!bundler) {
     bundler = watchify(browserify(config.entryFile, _.extend({ 
-      debug: true, 
-      extensions: ['.es6', '.js'],
-      blacklist: ['useStrict', 'spec.functionName']
+      debug: true,
+      extensions: ['.es6', '.js']
     }, watchify.args)));
   }
   return bundler;
@@ -34,7 +33,9 @@ function getBundler() {
 
 function bundle() {
   return getBundler()
-    .transform(babelify)
+    .transform(babelify.configure({ 
+      blacklist: ['useStrict']
+    }))
     .bundle()
     .on('error', function(err) { console.log('Error: ' + err.message); })
     .pipe(source(config.outputFile))
