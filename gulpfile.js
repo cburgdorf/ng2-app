@@ -23,7 +23,11 @@ gulp.task('clean', function(cb){
 var bundler;
 function getBundler() {
   if (!bundler) {
-    bundler = watchify(browserify(config.entryFile, _.extend({ debug: true, extensions: ['.es6', '.js'] }, watchify.args)));
+    bundler = watchify(browserify(config.entryFile, _.extend({ 
+      debug: true, 
+      extensions: ['.es6', '.js'],
+      blacklist: ['useStrict']
+    }, watchify.args)));
   }
   return bundler;
 };
