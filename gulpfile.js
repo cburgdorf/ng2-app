@@ -26,7 +26,7 @@ function getBundler() {
     bundler = watchify(browserify(config.entryFile, _.extend({ 
       debug: true, 
       extensions: ['.es6', '.js'],
-      blacklist: ['useStrict']
+      blacklist: ['useStrict', 'spec.functionName']
     }, watchify.args)));
   }
   return bundler;
